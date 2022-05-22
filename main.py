@@ -1,14 +1,8 @@
 import os
-import shutil
 import smtplib
-import mimetypes
-
 import email
 import email.mime.application as mime
-
 from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-from email.mime.image import MIMEImage
 
 path1 = r'/storage/'
 path2 = r'/sdcard/'
